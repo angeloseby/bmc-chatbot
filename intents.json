@@ -1,0 +1,123 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey",
+          "Hello",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "college",
+        "patterns": [
+          "Tell me something about bharata mata college",
+          "Where is Bharata Mata College situated?",
+          "What is about Bharata Mata College?",
+          "Brief about Bharata Mata College",
+          "college",
+          "Can you share something about college ?",
+          "can you tell me about the college ?"
+        ],
+        "responses": [
+          "Bharata Mata College is a nationally accredited first grade arts and science co-educational institution of higher learning in the aided sector, under Bharata Mata Educational Trust owned and managed by the Archdiocese of Ernakulam-Angamaly. Established in 1965 by His Eminence the late Joseph Cardinal Parecattil, the college is affiliated to the Mahatma Gandhi University, Kottayam. The college was included under section 2 (f) and 12 (b) of UGC Act 1956 in 1976 and accredited at the A+ level by NAAC in 2019."
+        ]
+      },
+      {
+        "tag": "vision",
+        "patterns": [
+          "What is the vision of the college ?",
+          "Share the mission of the college",
+          "Can you tell or share the vision of the college ?",
+          "vision"
+        ],
+        "responses": [
+          "Bharata Mata College seeks to become a centre of excellence by providing its students a comprehensive education with special emphasis on responsible citizenship, secular outlook, moral values and abiding faith in God expressed in active concern for others."
+        ]
+      },
+      {
+        "tag": "mission",
+        "patterns": [
+          "What is the mission of the college ?",
+          "Can you tell me the vision of the college ?",
+          "Mission"
+        ],
+        "responses": [
+          "The college strives to become a seminal centre for the promotion of the holistic development and equitable opportunities for horizontal and vertical mobility, inclusive of gender, caste and socio-economic background."
+        ]
+      },
+      {
+        "tag": "address",
+        "patterns": [
+          "What is the address of the college ",
+          "Share me the address of the collage ?",
+          "Share me the college address ?",
+          "College location",
+          "location",
+          "address",
+          "place",
+          "where is college situated ?"
+        ],
+        "responses": [
+          "Seaport - Airport Rd, Thrikkakara,Edappally, Kochi, Kerala - 682021"
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "What is the contact number of the college ?",
+          "Share me the contact number of the collage ?",
+          "Share me the college contact number ?",
+          "College contact number",
+          "contact number",
+          "contact",
+          "phone number",
+          "phone",
+          "number",
+          "call me",
+          "call"
+        ],
+        "responses": [
+          "Mobile: +91 82813 03721 Phone : 0484 2425121"
+        ]
+      },
+      {
+        "tag": "email",
+        "patterns": [
+          "What is the email id of the college ?",
+          "Share me the email id of the collage ?",
+          "Share me the college email id ?",
+          "College email id",
+          "email id",
+          "email",
+          "mail",
+          "mail id",
+          "mail id"
+        ],
+        "responses": ["Email: principal@bharatamatacollege.in"]
+      }
+    ]
+  }
