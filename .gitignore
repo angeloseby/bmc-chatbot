@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # PyTorch #Saved model files
-*.pth
+# *.pth
 
 #Visual studio code
 .vscode/
